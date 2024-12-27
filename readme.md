@@ -1,9 +1,9 @@
-# ECOM-READY
+# ECOM-READY -- Springboot 
 
 **ECOM-READY** is a full-stack e-commerce application. It consists of two main components:
 
-1. **Frontend**: Built using React and styled with Bootstrap.
-2. **Backend**: Developed using Spring Boot with an H2 in-memory database for persistence.
+1. **Backend**: Developed using Spring Boot with an H2 in-memory database for persistence.
+2. **Frontend**: Built using React and styled with Bootstrap.
 
 ![alt text](<Screenshot 2024-12-27 171405.png>) ![alt text](<Screenshot 2024-12-27 171540.png>) ![alt text](<Screenshot 2024-12-27 171518.png>) ![alt text](<Screenshot 2024-12-27 171507.png>) ![alt text](<Screenshot 2024-12-27 171428.png>) ![alt text](<Screenshot 2024-12-27 171414.png>)
 
@@ -16,54 +16,6 @@ ECOM-READY/
 |-- ecom-backend/     # Backend Spring Boot application
 ```
 
----
-
-## Frontend: ecom-frontend
-
-### Technologies Used
-
-- **React**: Frontend library for building the user interface.
-- **Bootstrap**: For styling and responsive design.
-- **Vite**: Tool for fast development and building.
-- **Axios**: For handling HTTP requests.
-- **React Router DOM**: For routing.
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- npm or yarn package manager
-
-### Installation and Usage
-
-1. Navigate to the `ecom-frontend` folder:
-
-   ```bash
-   cd ecom-frontend
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-4. Build the application for production:
-
-   ```bash
-   npm run build
-   ```
-
-5. Preview the production build:
-
-   ```bash
-   npm run preview
-   ```
 
 ---
 
@@ -113,6 +65,53 @@ ECOM-READY/
 - Hibernate is configured for automatic schema generation.
 
 ---
+## Frontend: ecom-frontend
+
+### Technologies Used
+
+- **React**: Frontend library for building the user interface.
+- **Bootstrap**: For styling and responsive design.
+- **Vite**: Tool for fast development and building.
+- **Axios**: For handling HTTP requests.
+- **React Router DOM**: For routing.
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+
+### Installation and Usage
+
+1. Navigate to the `ecom-frontend` folder:
+
+   ```bash
+   cd ecom-frontend
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Build the application for production:
+
+   ```bash
+   npm run build
+   ```
+
+5. Preview the production build:
+
+   ```bash
+   npm run preview
+   ```
+---
 
 ## Key Scripts and Commands
 
@@ -128,15 +127,6 @@ ECOM-READY/
 
 ---
 
-## Future Enhancements
-
-- Integration with a persistent database (e.g., MySQL, PostgreSQL).
-- Deployment to cloud platforms.
-- Additional features such as user authentication and order management.
-
----
-
 ## License
 
 This project is licensed under the MIT License.
-
