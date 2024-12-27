@@ -1,6 +1,6 @@
-# ECOM-READY -- Springboot 
+# ECOM-BUSY -- Springboot 
 
-**ECOM-READY** is a full-stack e-commerce application. It consists of two main components:
+**ECOM-BUSY** is a full-stack e-commerce application. It consists of two main components:
 
 1. **Backend**: Developed using Spring Boot with an H2 in-memory database for persistence.
 2. **Frontend**: Built using React and styled with Bootstrap.
